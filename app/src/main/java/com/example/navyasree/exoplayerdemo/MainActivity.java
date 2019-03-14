@@ -33,14 +33,7 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState==null){
             startPlayer();
         }
-       /* else {
-            currentposition=savedInstanceState.getLong("currentpos");
-            playwhenready=savedInstanceState.getBoolean("playwhenready");
-            Log.d("currentpos",""+currentposition);
-            exoplayer.seekTo(currentposition);
-            exoplayer.setPlayWhenReady(playwhenready);
-        }*/
-    
+
         }
     public void startPlayer(){
         exoplayer= ExoPlayerFactory.newSimpleInstance(
